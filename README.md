@@ -1,4 +1,4 @@
-# Hi, I'm Mohammadreza Rasolroveicy
+# Hi, 
 
 Senior Software Engineer and Technical Lead based in Toronto, Canada.
 
