@@ -47,4 +47,3 @@ ACM/SPEC ICPE 2024
 - Website: https://roveicy93.github.io/
 - GitHub: https://github.com/roveicy93
 - Google Scholar: https://scholar.google.com/citations?user=G1CNHeUAAAAJ
-- Email: roveicy@ibm.com
