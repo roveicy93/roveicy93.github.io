@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammadreza Rasolroveicy | Software Engineer</title>
+  <style>
+    :root {
+      --text: #1f2937;
+      --muted: #5f6b7a;
+      --accent: #204a87;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+      --soft: #f8fafc;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 48px 22px 64px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 28px;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      line-height: 1.15;
+      margin: 0 0 8px;
+      color: var(--accent);
+    }
+
+    .subtitle {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin: 0 0 18px;
+    }
+
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 16px;
+      font-weight: 600;
+    }
+
+    .links a:hover { text-decoration: underline; }
+
+    section { margin: 32px 0; }
+
+    h2 {
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+    }
+
+    .summary {
+      font-size: 1.02rem;
+      max-width: 880px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      background: var(--soft);
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    .card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .card a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .card a:hover { text-decoration: underline; }
+
+    .tags { margin-top: 10px; }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.78rem;
+      color: var(--accent);
+      background: #edf3ff;
+      border: 1px solid #dbeafe;
+      border-radius: 999px;
+      padding: 3px 9px;
+      margin: 3px 4px 3px 0;
+    }
+
+    .role {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 6px;
+    }
+
+    .role strong { color: var(--text); }
+    .date { color: var(--muted); }
+
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+
+    footer {
+      margin-top: 44px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Mohammadreza Rasolroveicy</h1>
+      <p class="subtitle">Senior Software Engineer | IBM Data Security | Cloud Platforms | Security Automation | Ph.D.</p>
+      <div class="links">
+        <a href="mailto:roveicy@ibm.com">Email</a>
+        <a href="https://github.com/roveicy93">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=G1CNHeUAAAAJ">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-7231-7889">ORCID</a>
+        <a href="resume.pdf">Resume</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p class="summary">
+        I am a senior software engineer and technical lead at IBM Data Security, focused on secure cloud platforms,
+        infrastructure automation, and enterprise security systems. My work combines backend engineering,
+        Kubernetes, Terraform, Go, and cloud-native architecture to simplify complex deployments and improve
+        how customers onboard, operate, and secure enterprise data platforms.
+      </p>
+    </section>
+
+    <section>
+      <h2>Current Focus</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Cloud Security Automation</h3>
+          <p>Building automation that helps customers onboard cloud datastores into Guardium security workflows faster and more reliably.</p>
+          <div class="tags">
+            <span class="tag">AWS</span>
+            <span class="tag">Guardium</span>
+            <span class="tag">Security</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Platform Engineering</h3>
+          <p>Modernizing enterprise deployments across Kubernetes, OpenShift, Amazon EKS, and infrastructure-as-code workflows.</p>
+          <div class="tags">
+            <span class="tag">Kubernetes</span>
+            <span class="tag">OpenShift</span>
+            <span class="tag">EKS</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Developer Experience</h3>
+          <p>Turning complex operational processes into repeatable modules, CLI workflows, and self-service deployment patterns.</p>
+          <div class="tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">Go</span>
+            <span class="tag">CLI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected Engineering Work</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Guardium Helm</h3>
+          <p>Helm-based deployment work for Guardium components, including Kubernetes, Amazon EKS, and OpenShift deployment patterns.</p>
+          <a href="https://github.com/IBM/guardium-helm">View repository</a>
+          <div class="tags">
+            <span class="tag">Helm</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">OpenShift</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>GuardAuto CLI</h3>
+          <p>CLI automation for discovering cloud databases and onboarding them into IBM Guardium Data Protection workflows.</p>
+          <a href="https://github.com/IBM/guardauto-cli">View repository</a>
+          <div class="tags">
+            <span class="tag">Go</span>
+            <span class="tag">CLI</span>
+            <span class="tag">Automation</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Guardium Datastore Audit Terraform</h3>
+          <p>Terraform module for datastore-enabled auditing configuration and Guardium audit onboarding.</p>
+          <a href="https://github.com/IBM/terraform-guardium-datastore-audit">View repository</a>
+          <div class="tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Audit</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Guardium Datastore VA Terraform</h3>
+          <p>Example-driven infrastructure automation for Guardium Vulnerability Assessment datastore integrations.</p>
+          <a href="https://github.com/IBM/terraform-guardium-datastore-va/tree/main/examples">View examples</a>
+          <div class="tags">
+            <span class="tag">Terraform</span>
+            <span class="tag">VA</span>
+            <span class="tag">Cloud Security</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div class="card">
+        <div class="role">
+          <strong>Software Engineer / Team Lead, IBM Data Security</strong>
+          <span class="date">Jan 2023 - Present</span>
+        </div>
+        <p>
+          Leading cloud automation, infrastructure-as-code, Kubernetes modernization, and Guardium platform integration work for enterprise security products.
+        </p>
+      </div>
+      <br />
+      <div class="card">
+        <div class="role">
+          <strong>Software Engineer Lead, APP-SCOOP Solutions</strong>
+          <span class="date">Jul 2020 - Jan 2023</span>
+        </div>
+        <p>
+          Led backend and cloud architecture for scalable digital platforms, including AWS-based event-driven systems and high-demand product launches.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Languages</h3>
+          <p>Go, Python, Node.js, Bash</p>
+        </div>
+        <div class="card">
+          <h3>Cloud & Platforms</h3>
+          <p>AWS, Azure, IBM Cloud, Kubernetes, OpenShift, Docker</p>
+        </div>
+        <div class="card">
+          <h3>Infrastructure</h3>
+          <p>Terraform, Helm, Ansible, GitHub Actions, Jenkins, CI/CD</p>
+        </div>
+        <div class="card">
+          <h3>Security</h3>
+          <p>IAM, access controls, compliance workflows, vulnerability assessment, enterprise security automation</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Research</h2>
+      <div class="card">
+        <h3>InstantOps</h3>
+        <p>Failure Prediction and Root Cause Identification in Microservices, ACM/SPEC ICPE 2024.</p>
+        <a href="https://scholar.google.com/citations?user=G1CNHeUAAAAJ">View publications</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Mohammadreza Rasolroveicy. Built for GitHub Pages.
+    </footer>
+  </main>
+</body>
+</html>
